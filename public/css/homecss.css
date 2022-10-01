@@ -1,6 +1,64 @@
 .homePage {
-    min-height: 85vh;
+    min-height: 86vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.homePage section {
+    font-family: Montserrat;
+}
+
+.homePage h1 {
+    font-size: 5rem;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: calc(var(--letter-spacer) * 2);
+    color: var(--logo-color);
+}
+
+
+.homePage h2 {
+    font-size: calc(var(--general-padding) * 3);
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: calc(var(--letter-spacer) * 3);
+    padding-top: calc(var(--general-padding) + var(--minus-px));
+}
+
+.homePage p {
+    font-size: calc(var(--general-padding) * 2.2);
+    font-style: italic;
+    letter-spacing: calc(var(--letter-spacer) + .5px);
+    padding-top: var(--general-padding);
+    padding-bottom:  calc(var(--general-padding) * 3);
+}
+
+.homePage button {
+    padding: calc(var(--general-padding) + var(--minus-px));
+    border-radius: var(--general-padding);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+
+    font-size: calc(var(--minus-px) * 4);
+    background-color: var(--logo-color);
+    color: var(--text-color);
+
+    letter-spacing: calc(var(--letter-spacer) * 2);
+    box-shadow: -.3rem .2rem .2rem -.1rem var(--logo-color);
+}
+
+.homePage button span {
+    padding-right: var(--minus-px);
+}
+
+.homePage button a {
+    color: var(--text-color);
+}
+
+.homePage button:hover {
+    --text-color: rgb(230, 222, 182);
+    box-shadow: none;
 }

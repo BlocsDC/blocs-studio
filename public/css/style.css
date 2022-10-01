@@ -7,7 +7,9 @@
     --header-footer-background: rgb(90, 66, 221);
     --general-padding: 10px;
     --general-margin: 10px;
-    --letter-spacer: 3px;
+    --letter-spacer: 1px;
+    --auto-padding: auto;
+    --minus-px: 5px;
 }
 
 /* Set general page margin and padding */
