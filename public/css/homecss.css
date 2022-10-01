@@ -1,5 +1,5 @@
 .homePage {
-    min-height: 86vh;
+    min-height: 87vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,4 +61,40 @@
 .homePage button:hover {
     --text-color: rgb(230, 222, 182);
     box-shadow: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .homePage {
+        padding: calc(var(--general-padding) * 2);
+    }
+}
+@media only screen and (max-height: 1024px) {
+    .homePage {
+        min-height: 89vh;
+    }
+}
+@media only screen and (max-height: 1368px) {
+    .homePage {
+        min-height: 90vh;
+    }
+}
+@media only screen and (max-height: 1180px) {
+    .homePage {
+        min-height: 87vh;
+    }
+}
+@media only screen and (max-height: 851px) {
+    .homePage {
+        min-height: 85vh;
+    }
+}
+@media only screen and (max-height: 740px) {
+    .homePage {
+        min-height: 82vh;
+    }
+}
+@media only screen and (max-height: 670px) {
+    .homePage {
+        min-height: 80vh;
+    }
 }

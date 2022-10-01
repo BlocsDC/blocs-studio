@@ -23,6 +23,8 @@ body {
     font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--background-color, var(--logo-color));
     color: var(--text-color);
+
+    overflow-y: hidden;
 }
 
 ul {
