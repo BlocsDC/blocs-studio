@@ -1,0 +1,30 @@
+
+header, footer {
+    background-color: var(--header-footer-background);
+}
+
+.logo h1 {
+    font-family: 'MonteCarlo';
+    font-size: 2.5rem;
+    font-weight: 300;
+
+    color:var(--logo-color);
+    letter-spacing: var(--letter-spacer);
+}
+
+.logo a:hover {
+    --letter-spacer: 1.5px;
+}
+
+.nav-bar nav, .nav-bar nav ul {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.nav-bar nav li {
+    padding: 1.5rem .3rem .5rem;
+}
+.nav-bar nav li a {
+    color: var(--text-color);
+}

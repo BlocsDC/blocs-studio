@@ -30,7 +30,7 @@ App.use('/', homeRoute);
 App.listen(PORT, (err) => {
     if (err) throw err;
     else
-    console.log(`Server runing on port: http://localhost${PORT}`);
+    console.log(`Server runing on port: http://localhost:${PORT}`);
 });
 
 // Set Error Handlers Here if more.
