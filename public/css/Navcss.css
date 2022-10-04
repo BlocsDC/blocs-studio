@@ -10,6 +10,8 @@ header, footer {
 
     color:var(--logo-color);
     letter-spacing: var(--letter-spacer);
+
+    
 }
 
 .logo a:hover {
